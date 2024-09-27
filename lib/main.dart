@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:fourth_counter_stateful_widget/05.counter_view_if_else.dart';
+import 'package:fourth_counter_stateful_widget/06.counter_view_same_program_termaryoperator.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: CounterViewFive(),
+      home: CounterViewSix(),
     );
   }
 }
