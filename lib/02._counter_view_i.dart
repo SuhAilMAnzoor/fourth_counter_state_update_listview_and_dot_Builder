@@ -6,7 +6,7 @@ class CounterViewTwo extends StatefulWidget {
   @override
   State<CounterViewTwo> createState() => _CounterViewTwoState();
 }
-//This is not updating on State if we increment value,
+//This is not updating State if we increment value,
 // yes, when we see debug console there we see increment but on screen
 // only increment a counter value but not updating state.
 
