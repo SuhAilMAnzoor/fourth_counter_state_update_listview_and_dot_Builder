@@ -14,11 +14,11 @@ class CounterViewSeven extends StatefulWidget {
 //ONE THING I MISSED THAT WE WILL MAKE FUNCTIONS OF EVERY ACTION
 // WE WANT TO PERFROM IN OnPressed Bhally 2 lines ka code q na ho make
 // function of that
-      // LISTVIEW
+// LISTVIEW
 class _CounterViewSevenState extends State<CounterViewSeven> {
   int counter = 0;
 
-// Here i am makin a function
+// Here i am make a function
   bool isZero = true;
 
   changeValue() {
@@ -31,112 +31,112 @@ class _CounterViewSevenState extends State<CounterViewSeven> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          //ListView Takes Full Width and it has own ScrollViews
-          child: ListView(
-        children: [
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-          Text(
-            isZero ? "0" : "1",
-            style: TextStyle(fontSize: 40),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              changeValue();
-            },
-            child: Text("Add Value"),
-          ),
-        ],
-      )),
+        //ListView Takes Full Width and it has own ScrollViews
+        child: ListView(
+          children: [
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+            Text(
+              isZero ? "0" : "1",
+              style: TextStyle(fontSize: 40),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                changeValue();
+              },
+              child: Text("Add Value"),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
-
