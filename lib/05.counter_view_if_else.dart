@@ -6,7 +6,7 @@ class CounterViewFive extends StatefulWidget {
   @override
   State<CounterViewFive> createState() => _CounterViewFiveState();
 }
-//This is updating Updating screen,
+//This is Updating screen,
 // Counter App  Using ElrvatedButton > OnPressed(){}
 
 //ONE THING I MISSED THAT WE WILL MAKE FUNCTIONS OF EVERY ACTION
@@ -19,7 +19,7 @@ class _CounterViewFiveState extends State<CounterViewFive> {
 //Make Sure you all we write all code in function for resubility and
 // changes it is easy to mamange all features when click performed.
 
-//Add Value Function used in OnPressed. 
+//Add Value Function used in OnPressed.
   addValue() {
     setState(
       () {
